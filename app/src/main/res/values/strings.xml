@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MipropioApp</string>
+    <string name="agenda">Agenda</string>
+    <string name="action_settings">Settings</string>
+    <string name="añadir">Añadir</string>
+    <string name="ok">OK</string>
+    <string name="title_activity_segunad_actividad">SegunadActividad</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="msg">Falta por poner nombre o telefono</string>
+    <string name="pnombre">Nombre</string>
+    <string name="ptelefono">Telefono</string>
+    <string name="textoañadir">textoañadir</string>
+    <string name="pnombre2">Nombre</string>
+    <string name="editar"></string>
+    <string name="pnombre3"></string>
+    <string name="title_activity_lista_agenda">ListaAgenda</string>
+    <string name="blista"></string>
+</resources>
