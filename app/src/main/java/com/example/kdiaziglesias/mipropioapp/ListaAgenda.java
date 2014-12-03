@@ -34,6 +34,12 @@ public class ListaAgenda extends ListActivity {
     protected void onListItemClick(ListView parent, View v, int position, long id) {
         Toast.makeText(this, "Hola Sr/Sra "+lista.get(position),Toast.LENGTH_SHORT).show();
 
+
+
+
+        Intent intento = new Intent(ListaAgenda.this,SegunadActividad.class);
+        intento.putExtra("Lista",lista);
+        startActivityForResult(intento,1);
     }
 
 

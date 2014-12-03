@@ -1,6 +1,7 @@
 package com.example.kdiaziglesias.mipropioapp;
 
 import android.app.Activity;
+import android.app.ListActivity;
 import android.content.Context;
 import android.os.Bundle;
 import android.view.Menu;
@@ -19,6 +20,8 @@ public class SegunadActividad extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_segunad_actividad);
+        String nombre= getIntent().getExtras().getString("Nombre");
+        String telefono = getIntent().getExtras().getString("Telefono");
 
         EditText out = (EditText)findViewById(R.id.pnombre3);
         EditText out2 = (EditText)findViewById(R.id.ptelefono2);
