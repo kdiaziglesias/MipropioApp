@@ -24,6 +24,10 @@
             android:name=".ListaAgenda"
             android:label="@string/title_activity_lista_agenda" >
         </activity>
+        <activity
+            android:name=".ActividadBorrar"
+            android:label="@string/title_activity_actividad_borrar" >
+        </activity>
     </application>
 
 </manifest>

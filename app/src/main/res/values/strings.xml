@@ -17,4 +17,6 @@
     <string name="pnombre3"></string>
     <string name="title_activity_lista_agenda">ListaAgenda</string>
     <string name="blista"></string>
+    <string name="title_activity_actividad_borrar">ActividadBorrar</string>
+
 </resources>
