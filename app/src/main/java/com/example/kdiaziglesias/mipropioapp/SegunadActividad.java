@@ -2,6 +2,7 @@ package com.example.kdiaziglesias.mipropioapp;
 
 import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -63,6 +64,9 @@ public class SegunadActividad extends Activity {
                 String ponerTelefono = text2.getText().toString();
 
 
+                Intent intento = new Intent(SegunadActividad.this,Agenda.class);
+                intento.putExtra("salutation",enterName);
+                startActivityForResult(intento,1);
 
 
             }
